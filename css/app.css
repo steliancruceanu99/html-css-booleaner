@@ -1,11 +1,100 @@
+/* GENERALS */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+body{
+    margin: 0;
+}
+
+/* COLORS */
+.blue-color{
+    color: #4ea0ff;
+}
+.grey-color{
+    color: grey;
+}
+.white-color{
+color: white;
+}
+
+/* WIDTH */
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+
+/* NOME SITO E LOGO */
+main, footer{
+    padding: 10px;
+}
+.logo-booleaner{
+    padding-top: 30px;
+}
+/* AGGIUNTA PUNTI PRIMA DI PUNTI UL */
+ul{
+    list-style-position: outside;
+    padding-left: 15px;
+}
 .main-header{
-    background-color: rgb(77, 160, 254);
-    background-image: url(./img/pattern.png);
+    background-color: #4ea0ff;
+    background-image: url(/img/pattern.png);
     background-size: 200px auto;
+    padding-top: 30px;
+    margin: 0;
 }
 .logo{
     height: 50px;
 }
-body{
-    margin: 0;
+table{
+    border-collapse: collapse;
+}
+table th{
+    text-align: left;
+    white-space: nowrap;
+    background-color: #1fa9e5;
+    color: white;
+}
+
+.tb-dispari{
+    background-color: #b1e5f2;
+}
+
+/* FOOTER */
+footer{
+    align-items:flex-start;
+    
+}
+h2 {
+    font-size: 20px;
+}
+
+.ft-photo-up{
+    background-image: url(/img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+    margin:20px 0px;
+    
+}
+
+.ft-photo-bottom{
+    background-image: url(/img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    margin:20px 0;
+}
+
+.ft-write{
+    padding: 20px;
+    font-size: 24px;
 }
